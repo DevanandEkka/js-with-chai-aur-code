@@ -20,3 +20,4 @@ let isLoggedIn=false/true
 console.log(typeof undefined)//undefined
 console.log(typeof null)//object
 
+//Object non preemptive 
