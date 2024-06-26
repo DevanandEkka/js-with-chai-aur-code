@@ -55,22 +55,45 @@ users[1].email
 // console.log(tinderUser.hasOwnProperty('isLoggedIn'));
 
 
-const course = {
-    coursename: "js in hindi",
-    price: "999",
-    courseInstructor: "hitesh"
-}
+// const course = {
+//     coursename: "js in hindi",
+//     price: "999",
+//     courseInstructor: "hitesh"
+// }
 
 // course.courseInstructor
 
-const {courseInstructor: instructor} = course
+// const {courseInstructor: instructor} = course
 
 // console.log(courseInstructor);
-console.log(instructor);
+// console.log(instructor);
 
 // {
 //     "name": "hitesh",
 //     "coursename": "js in hindi",
+//     "price": "free"
+// }
+
+// [
+//     {},
+//     {},
+//     {}
+// ]
+const course = {
+    coursename: "js in hindi",
+    price: "999",
+    courseInstructor: "Hitesh"
+}
+// console.log(course.courseInstructor);
+const{courseInstructor} = course
+console.log(courseInstructor);
+
+const{courseInstructor: instructor} = course//de-Structuring Object
+console.log(instructor);
+
+// {
+//     "name": "Devanand",
+//     "course":"js in Hindi", Json
 //     "price": "free"
 // }
 
