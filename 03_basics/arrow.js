@@ -36,3 +36,5 @@ const chai = () => {
 
 const addTwo = (num1 ,num2) =>( num1 + num2)//if we use parenthesis we do not write return keyword |||| but if we use curly bracket we must have to write return keyword 
 console.log(addTwo(201, 200))
+
+
